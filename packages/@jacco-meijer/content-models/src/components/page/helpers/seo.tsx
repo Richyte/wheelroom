@@ -102,6 +102,10 @@ export const Seo = ({
         .concat(meta)
         .concat(typeTags)}
     >
+		<link
+		  rel="canonical"
+          href="https://www.simyo.nl/onderzoek/smartphone-gebruik"
+        />
       {linkLocales.map((linkLocale: any) => (
         <link
           rel="alternate"
